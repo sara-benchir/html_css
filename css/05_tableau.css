@@ -1,0 +1,42 @@
+*{
+    font-family: fantasy;
+}
+
+body{
+    width: 50%;
+    margin: auto;/*gestion automatique des marges pour qu emon tableau soit centré*/
+}
+
+table{
+    border: 4px solid rgb(87, 73, 73) ;
+    border-collapse: collapse;/*rassemble les border ensembles pour obtenir une border unique*/
+    width: 90%;
+    margin: 25px;
+}
+thead, tfoot{
+    background-color: rgb(230, 185, 230);
+    border: 2px solid rgb(25, 27, 25);
+}
+
+tbody{
+    border: 1px solid fuchsia;
+}
+
+th{
+    border: 1px dotted aqua;/*dotted = pointillé*/
+    padding: 4px; /*marge interieur, c'est ce qui permet d'éloigner du texte de la bordure de la balise*/
+    background-color: rgb(151, 104, 179);/*couleur en RGB= red green blue*/
+    width: 25%;
+}
+
+td{
+    font-size: 100%;
+    border: 1px dotted hotpink;
+    text-align: center;
+    padding: 5px;
+}
+
+td:first-child{/* 1er td pour aligner le texte à gauche de la première rangée*/
+    text-align: left;
+    background-color: rgb(235, 202, 243);
+}

@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(233, 185, 233);
+    font-family: 'Indie Flower', cursive;
+    background-image: url(img\back.jpg);
+}
+label{
+    font-style: italic;
+    background-color: rgb(224, 216, 216);
+    
+}
