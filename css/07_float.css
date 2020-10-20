@@ -1,0 +1,40 @@
+body{
+    margin: 0 auto;
+    background-color: lightcyan;
+}
+div{
+    width: 90%;
+    margin: 0 auto;
+    /*margin: 0 auto 0 auto;--> haut droite bac gauche*/
+    background-color: rgb(240, 208, 237);
+}
+.boite
+{
+    height: 11vh;
+    width: 18;
+    padding: 5vh;
+    /* EM : relatif à l'élément parent
+    REM : relatif à la balise html
+    % : tjr relatif à l'élément parent (%)
+    Vw : relatif à la largeur de l'écran
+    VH : relatif à la hauteur de l'écran */
+    background: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    border: 5px double rgb(170, 100, 168);
+    margin: 2vh;
+    float: left;/*effet flottant, place les élément côte à cote alors que les flux standar des éléments les placent les uns en-dessous des autres*/
+    transition: margin 0.5s;
+}
+.boite:hover{/*la pseudo-class : hover l'affichage au survol de la souris*/
+    margin-top: 10vh;
+}
+.clear{
+    clear: both;/*supprime l'effet flottant à droite et gauche*/
+}
+
+p{
+    background-color:rgb(181, 167, 233);
+}
+p span{
+    background-color: rgb(153, 221, 238);
+}

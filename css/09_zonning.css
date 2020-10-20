@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(253, 252, 251);
+    font-size: 25px;
+
+}
+#conteneur{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid rgb(0, 0, 0); 
+}
+header{
+    height: 100px;
+    background-color: rgb(146, 38, 47);
+}
+nav{
+    height: 30px;
+    background: rgb(70, 33, 13);
+}
+section{
+    background-color: rgb(131, 48, 48);
+    height: 500px;
+    margin: 30px;   
+}
+footer{
+    background: rgb(70, 33, 13);
+    height: 100px;
+}
+.a, .b, .c, .d{
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+.a{
+    background-color: crimson;
+}
+.b{
+    background-color: darkgoldenrod;
+}
+.c{
+    background-color: darksalmon;
+}
+.d{
+    background-color: lightblue;
+}
+.clear{
+    clear: both;
+}

@@ -1,0 +1,41 @@
+
+.code{
+    color: rgb(22, 21, 21);
+    background: rgb(228, 173, 173);
+    display: inline-block;
+    font-style: italic;
+    
+}
+#top{
+    color: rgb(112, 192, 224);
+    text-align: start;
+    font-style: inherit;
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+h1{
+    background: lightblue;
+    color: rgb(85, 80, 80);
+    font-family: 'Lemonada', cursive;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(188,159,212,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(188,159,212,1);
+    box-shadow: 10px 10px 5px 0px rgba(188,159,212,1);
+
+}
+.body{
+    background-color: lightcyan;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    
+}
+p{
+    font-family: 'Chilanka', cursive;
+    
+  
+}
+h2{
+    background: rgb(175,232,235);
+    background: radial-gradient(circle, rgba(175,232,235,1) 0%, rgba(251,216,247,1) 48%, rgba(187,241,233,1) 100%);
+}
