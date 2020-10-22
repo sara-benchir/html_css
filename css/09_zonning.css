@@ -24,6 +24,7 @@ section{
 footer{
     background: rgb(70, 33, 13);
     height: 100px;
+    text-align: center;
 }
 .a, .b, .c, .d{
     width: 50%;

@@ -1,0 +1,94 @@
+*{
+    font-family: sans-serif;
+}
+
+
+nav{
+    background: rgb(237,204,226);
+    background: linear-gradient(0deg, rgba(237,204,226,1) 0%, rgba(146,158,242,1) 25%, rgba(244,207,244,1) 71%, rgba(131,145,221,1) 100%);;/*défini que la couleur, on peut mettre plusieurs valeurs */
+    padding: 0 0.5em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;/*position à partir du haut de l'écran*/
+    left: 0;/*position à partir du bord gauche de l'écran*/ 
+    margin: 0 0 20px;/*top right bottom left=right */
+    transition-duration: 3s, 1s;
+}
+
+nav a{
+    float: left;
+    text-decoration: none;/* pas de soulignage dans le cas des liens*/
+    color: rgb(64, 70, 158);/*récupéré dans nav*/
+    height: 2.8em;/*nous n'avons pas donné de hauteur à la nav alors celle-ci va prendre celle de ces enfants*/
+    line-height: 2.7em;/*interligne*/
+    padding: 0em 2em;
+    font-size: 1.2em;
+  
+    
+}
+
+nav a:hover{
+    background-color: rgb(198, 157, 236);
+    color: black;
+    transition-duration: 2s;
+    transition-property: margin-right, color;
+}
+
+.container{
+    width: 70%;
+    margin: 6% auto 4% auto;/*== 4% auto 2% */
+    background-color: rgb(135, 169, 233);
+    padding: 3em;
+    border: solid 2px black;
+}
+
+mark{
+    background-color: rgb(226, 159, 148);
+}
+
+.container1{
+    width: 70%;
+    margin: 2% auto;
+    background: rgb(233, 188, 235);
+    padding: 2%;
+   
+}
+
+.container2, .container3{
+    width: 44.5%;
+    background: rgb(204, 207, 211);
+    padding: 2%;
+    float: left;
+}
+
+.container2{
+    margin-right: 1.5%;
+}
+.container3{
+    margin-left: 1.5%;
+}
+
+.container4{
+    margin-top: 2em;
+}
+
+.container3 ol li:nth-last-of-type(11){
+    border: 1px solid crimson;
+}
+.container3 ol li:first-child{
+    font-weight: 700;
+}
+.container3 ol li:nth-of-type(7){
+    opacity: 0.5;
+}
+.container3 ol li:last-child{
+    color: crimson;
+   
+}
+
+
+.claer{
+    clear: both;
+}
+

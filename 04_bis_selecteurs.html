@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Révision sélécteurs CSS</title>
+    <link rel="stylesheet" href="css/04_bis_selecteurs.css">
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Edito</a>
+        <a href="#">Panier</a>
+        <a href="#">FAQ</a>
+        <a href="#">Nous contacter</a>
+    </nav>
+
+    <section class="container">
+        <h1> Aide mémoire des sélécteurs CSS déja vu </h1>
+        <ul>
+            <li>
+                <mark>*</mark> sélectionne TOUS les éléments de la page HTML
+            </li>
+            <li>
+                <mark>.ma-jolie-nav</mark> sélectionne tous les éléments ayant le de class "ma-jolie-nav".
+            </li>
+            <li>
+                <mark>#mon-unique-id</mark> sélectionne l'élément ayant le nom d'id "mon-unique-id".
+            </li>
+            <li>
+                <mark>div, article, aside</mark> séléctionne toutes les balises &lt;div>,&lt;article> et &lt;aside>.
+            </li>
+            <li>
+                <mark>nav a</mark> sélectionne tous le liens &lt;a> inclus /imbriqués dans la balise &lt;nav>.
+            </li>
+            <li>
+                nav a<mark>:hover</mark> sélectionne tous les liens de la navet active une animation lors du survol de la souris0.
+            </li>
+        </ul>
+
+        <br /> 
+    </section>
+
+    <!--.containe1>section*2>h2+h3+ol>li*16-->
+    <div class="container1">
+        <section class="container2">
+            <h2>Probriétés CSS utilisées dans cette page</h2>
+            <h3>Décrivez leur usage et leurs valeurs possibles</h3>
+            <ol>
+                <li><mark>background</mark> :La propriété CSS background est une propriété raccourcie qui permet de définir les différentes valeurs des propriétés liées à la gestion des arrière-plans d'un élément (couleur, image, origine, taille, répétition, etc.).
+                </li>
+                <li><mark>color</mark> :L'attribut color est utilisé pour définir indirectement une valeur potentielle (currentColor) pour les attributs fill, stroke, stop-color, flood-color et lighting-color.</li>
+                <li><mark>float</mark> : La propriété float indique qu'un élément doit être retiré du flux normal et doit être placé sur le côté droit ou sur le côté gauche de son conteneur. Le texte et les autres éléments en ligne (inline) entoureront alors l'élément flottant.</li>
+                <li><mark>font-family</mark> :La propriété font-family permet de définir une liste, ordonnée par priorité, de polices à utiliser pour mettre en forme le texte de l'élément ciblé.</li>
+                <li>font-size :La propriété font-size définit la taille de fonte utilisée pour le texte. La modification de cette taille peut entraîner la modification de la taille d'autres éléments car elle est utilisée pour calculer les valeurs des longueurs relatives</li>
+                <li><mark>height</mark> :La propriété height définit la hauteur de la boîte de contenu d'un élément. La      boîte de contenu est à l'intérieur de la boîte de remplissage (padding) qui est à l'intérieur de la boîte de bordure qui est elle-même à l'intérieur de la boîte de marge de l'élément</li>
+                <li><mark>left</mark> :La propriété left permet de définir une partie de la position des éléments positionnés. Elle n'a aucun effet pour les éléments non-positionnés.</li>
+                <li>line-height :La propriété line-height définit la hauteur de la boîte d'une ligne.
+                    Sur les éléments de bloc, la propriété line-height indique la hauteur minimale des lignes au sein de l'élément. Sur les éléments en ligne qui ne sont pas remplacés, line-height indique la hauteur utilisée pour calculer la hauteur de la boîte d'une ligne.</li>
+                <li><mark>Margin</mark> :La propriété margin définit la taille des marges sur les quatre côtés de l'élément. C'est une propriété raccourcie qui permet de manipuler les autres propriétés de marges : margin-top, margin-right, margin-bottom et margin-left.</li>
+                <li><mark>Padding</mark> :La propriété padding est une propriété raccourcie qui permet de définir les différents écarts de remplissage sur les quatre côtés d'un élément (cf. les boîtes CSS).</li>
+                <li><mark>Position</mark> :La propriété position définit la façon dont un élément est positionné dans un document. Les propriétés top, right, bottom et left déterminent l'emplacement final de l'élément positionné.</li>
+                <li><mark>Text-align</mark> :La propriété text-align définit l'alignement horizontal d'un élément de bloc ou de la boîte d'une cellule de tableau. Cette propriété fonctionne donc de façon analogue à vertical-align mais dans le sens horizontal.</li>
+                <li><mark>Text-decoration</mark> :The text-decoration attribute defines whether text is decorated with an underline, overline and/or strike-through. It is a shorthand for the text-decoration-line and text-decoration-style properties.</li>
+                <li><mark>Top</mark> :La propriété top définit une partie de la position des éléments positionnés, elle n'a aucun effet pour les éléments non-positionnés</li>
+                <li><mark>Transition</mark>:La propriété transition est une propriété raccourcie pour les propriétés transition-property, transition-duration, transition-timing-function et transition-delay.</li>
+                <li><mark>Width</mark> :Le descripteur width, rattaché à la règle @ @viewport est un raccourci permettant de définir les deux descripteurs min-width et max-width.</li>
+            </ol>
+        </section>
+
+        <section class="container3">
+            <h2>Propriétes CSS à rechercher</h2>
+            <h3>Recherchez les propriétes ci-dessous, faites des tests sur cette page en utilisant la console de débuggage pour tester les valeurs qu'elles peuvent prendre. (F12 dans le navigateur)</h3>
+            <ol>
+                <li>
+                    <strong>Font-weight: font-weight permet de définir la graisse utilisée pour le texte.</strong>
+                </li>
+                <li>
+                    <mark>Letter-spacing</mark>: L'attribut letter-spacing contrôle l'espacement entre les caractères de texte, en plus de tout espacement de l'attribut de crénage. 
+                </li>
+                <li>
+                    <mark>Work-spacing</mark>: L'attribut word-spacing spécifie le comportement d'espacement 
+                    entre les mots.  
+                </li>
+                <li>
+                    <mark>Text-shadow</mark>: La propriété text-shadow ajoute des ombres au texte. Elle accepte une liste d'ombres à appliquer au texte et aux décorations de l'élément. Chaque ombre est décrite par une certaine combinaison de décalages X et Y de l'élément, de rayon de flou et de couleur.
+                </li>
+                <li>
+                    <mark>Backgroung-image</mark>: La propriété background-image permet de définir une ou plusieurs images comme arrière(s)-plan(s) pour un élément.
+                </li>
+                <li>
+                    <mark>Background-size</mark>: La propriété CSS background-size définit la taille des images d'arrière-plan pour l'élément. La taille de l'image peut être contrainte, complètement ou partiellement afin de conserver ses proportions.
+                </li>
+                <li class="opacity">
+                    Opacity: L'attribut opacity spécifie la transparence d'un objet ou d'un groupe d'objets, c'est-à-dire le degré de superposition de l'arrière-plan derrière l'élément.
+                </li>
+                <li>
+                    <mark>Border-style</mark>: La propriété CSS border-style est une propriété raccourcie qui permet de définir le style des lignes utilisées pour les bordures des quatre côtés de la boîte d'un élément.
+                </li>
+                <li>
+                    <mark>Box-sadow</mark>: La propriété CSS box-shadow ajoute des ombres à la boîte d'un élément via une liste d'ombres séparées par des virgules. Une boîte d'ombre est définie avec des décalages horizontal et vertical par rapport à l'élément, avec des rayons de flou et d'étalement et avec une couleur.</li>
+                <li>
+                    <mark>List-style-image</mark>: La propriété list-style-image définit l'image utilisée comme puce devant les éléments de listes. On peut également utiliser la propriété raccourcie list-style.
+                </li>
+                <li >
+                    Border: La propriété CSS border est une propriété raccourcie qui permet de définir les propriétés liées à la bordure. border peut être utilisée pour définir les valeurs de border-width, border-style et border-color.
+                </li>
+                <li>
+                    <mark>Border-radius</mark>: La propriété border-radius permet de définir des coins arrondis pour la bordure d'un élément. La courbure de chaque coin est définie avec un ou deux rayons de courbures qui permettent de définir un arc de cercle ou un arc d'ellipse.
+                </li>
+                <li>
+                    <mark>Border-width</mark>: La propriété CSS border-width est une propriété raccourcie qui définit la largeur de la bordure d'un élément
+                </li>
+                <li>
+                    <mark>Font-variant</mark>: La propriété font-variant est une propriété raccourcie représentant les propriétés : font-variant-caps, font-variant-numeric, font-variant-alternates, font-variant-ligatures et font-variant-east-asian. On peut aussi utiliser les valeurs de la propriété font-variant définies avec CSS Level 2 (normal ou small-caps), en utilisant la propriété raccourcie font.
+                </li>
+                <li>
+                    <mark>Background-color</mark>: La propriété background-color permet de définir la couleur utilisée pour l'arrière-plan d'un élément (celle-ci peut être une couleur transparente).
+                </li>
+                <li >
+                    !important: La règle CSS !important permet de spécifier que la propriété est la plus importante dans votre feuille CSS en lui donnant un poids plus important.
+                    La règle de feuille de style !important CSS est généralement utilisée dans le cas où une propriété de feuille de style CSS est déclarée plusieurs fois avec des ciblages différents.
+                </li>
+            </ol>
+        </section>
+        <div class="clear"></div>
+    </div><!--fin div container1-->
+
+    <section class="container container4">
+        <h2>Pour aller plus loin en CSS, quelques pistes...</h2>
+        <ul><!--ul>li*8>a-->
+            <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN le site officiel</a>
+            </li>
+            <li>
+                <a href="https://tympanus.net/codrops/">Codrops, références, tutos...</a>
+            </li>
+            <li>
+                <a href="https://flukeout.github.io/">Jeu avec les sélecteurs CSS</a>
+            </li>
+            <li>
+                <a href="http://flexboxfroggy.com/">Autre jeu avec les "Flexbox"</a>
+            </li>
+            <li>
+                <a href="http://viewportsizes.com/">Différenets tailles d'écrans</a>
+            </li>
+            <li>
+                <a href="http://fr.learnlayout.com/">Displays</a>
+            </li>
+            <li>
+                <a href="https://purecss.io">Encore des tutos</a>
+            </li>
+            <li>
+                <a href="https://www.w3c.org/Style/CSS/learning">W3C parie CSS</a>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
