@@ -1,0 +1,39 @@
+/* media querie permet de ré-arranger la disposition du site en fonction des toiles de navigateur en pixel - cf.viewportsizes.com - en général 3 tailles suffisent.
+on peut faire une feuille de style standars et une seulement pour le responsive.
+la zone est verte en plein d'écran et passe d'une couleur à l'autre pour arriver au rouge, on utilisera les breakpoint 1200px, 992px et 768px
+un site doit être conçu en pensant dès le début à la version, on appel ça mobile first. */
+
+.zone-adaptative{
+    background: tomato;
+    color: wheat;
+    padding: 10px;
+}
+
+@media (min-width:768px){/*sert à utiliser les media queries, on utilise le @ pour écrire règle CSS*/
+    .zone-adaptative{
+        width: 750px;
+        background: rgb(224, 179, 106);
+    }
+}
+
+@media(min-width: 992px){
+    .zone-adaptative{
+        width: 970px;
+        background: rgb(20, 197, 197);
+    }
+}
+
+@media(min-width: 1200px){
+    .zone-adaptative{
+        width: 1170px;
+        background: rgb(81, 180, 127);
+    }
+}
+
+@media(min-width: 1800px){
+    .zone-adaptative{
+        width: 1700px;
+        background: rgb(151, 71, 189);
+    }
+}
+
